@@ -3045,3 +3045,16 @@ java.io.FileNotFoundException: E:\Softwares\GitHub\Java\cursoJava\curso_programa
 	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+
+!ENTRY org.eclipse.ui.ide 4 0 2023-06-07 09:39:54.702
+!MESSAGE OperationCanceledException
+!STACK 0
+org.eclipse.core.runtime.OperationCanceledException
+	at org.eclipse.core.internal.jobs.JobManager.join(JobManager.java:1126)
+	at org.eclipse.core.internal.jobs.InternalJobGroup.join(InternalJobGroup.java:106)
+	at org.eclipse.core.runtime.jobs.JobGroup.join(JobGroup.java:254)
+	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportJob.run(SmartImportJob.java:244)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.resources 2 10035 2023-06-07 09:45:31.821
+!MESSAGE The workspace will exit with unsaved changes in this session.
